@@ -26,7 +26,7 @@
 
 ![alt text](db_schema.png)
 
-I use `WHERE IN` instead on `JOIN`. Because multiple joins show slow performance
+I use `WHERE IN` instead of `JOIN`. Because multiple joins show slow performance
 
 Get last 5 posts  
 `select * from posts order by id desc limit 5` (example: it returns 1,2,3,4,5)
