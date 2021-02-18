@@ -1,7 +1,7 @@
-## **Bringit Task Answers**
+# **Bringit Task Answers**
 
 
-#### **Task-1**
+## **Task-1**
 
  * How it works?
  * To solve this problem I calculate length and sum of array
@@ -18,9 +18,9 @@
  }</code></pre>
  
 
-#### **Task-2**
+## **Task-2**
 
-#### **Task-3**
+## **Task-3**
 
 ##### DB SCHEMA
 
