@@ -20,7 +20,7 @@
 
 ## **Task-2**
 If we consider that array of size is N then space complexity will be O(N) - **linear complexity**. Because it takes space directly proportional to the input size. Length of each element is 8 bytes then it will be O(N*8). While growing size of array (N) space complexity will increase.
-In my opinion instead of using UUID we can use a unique integer.
+In my opinion instead of using UUID we can use a unique integer. In a word, we can't always aim best space efficiency.
  
 
 ## **Task-3**
