@@ -24,7 +24,7 @@
 
 ##### DB SCHEMA
 
-![alt text](db_schema.png)
+![](db_schema.png)
 
 I use `WHERE IN` instead of `JOIN`. Because multiple joins show slow performance
 
