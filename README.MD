@@ -28,13 +28,13 @@
 
 I use `WHERE IN` instead of `JOIN`. Because multiple joins show slow performance
 
-Get last 5 posts  
+3.1 Get last 5 posts  
 `select * from posts order by id desc limit 5` (example: result of IDs are 1,2,3,4,5)
 
-Get comments of posts  
+3.2 Get comments of posts  
 ``select * from post_comments where post_comments.post_id in (1,2,3,4,5)``
 
-Get post with likes of each user
+3.3 Get post with likes of each user
 <code><pre>
 SELECT 
     users.*, 
