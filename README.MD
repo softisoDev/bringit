@@ -22,6 +22,10 @@
 
 #### **Task-3**
 
+##### DB SCHEMA
+
+![alt text](db_schema.png)
+
 I use `WHERE IN` instead on `JOIN`. Because multiple joins show slow performance
 
 Get last 5 posts  
