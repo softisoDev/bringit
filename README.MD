@@ -29,7 +29,7 @@
 I use `WHERE IN` instead of `JOIN`. Because multiple joins show slow performance
 
 Get last 5 posts  
-`select * from posts order by id desc limit 5` (example: it returns 1,2,3,4,5)
+`select * from posts order by id desc limit 5` (example: result of IDs are 1,2,3,4,5)
 
 Get comments of posts  
 ``select * from post_comments where post_comments.post_id in (1,2,3,4,5)``
