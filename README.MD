@@ -36,7 +36,8 @@ Get comments of posts
 
 Get post with likes of each user
 <code><pre>
-SELECT users.*, 
+SELECT 
+    users.*, 
     post_likes.post_id, 
     post_likes.user_id 
 FROM users 
